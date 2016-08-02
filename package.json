@@ -1,0 +1,27 @@
+{
+  "name": "node-docker-quickstart",
+  "version": "0.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:gpuenteallott/node-docker-quickstart.git"
+  },
+  "author": "Guillermo de la Puente",
+  "devDependencies": {
+    "glob": "^7.0.3",
+    "grunt": "^1.0.1",
+    "grunt-contrib-stylus": "^1.2.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "load-grunt-tasks": "^3.5.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "ejs": "^2.4.2",
+    "express": "^4.13.4",
+    "express-partials": "^0.3.0"
+  }
+}

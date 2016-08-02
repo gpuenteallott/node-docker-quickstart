@@ -1,0 +1,13 @@
+version: '2'
+services:
+  web:
+    build:
+      context: .
+      dockerfile: ${NODE_PROJECT_ROOT}/docker/Dockerfile
+    volumes:
+      - ${NODE_PROJECT_ROOT}:/www
+    ports:
+      - "8088:80"
+      - "8443:443"
+    env_file:
+      - ${NODE_PROJECT_ROOT}/docker/.env
