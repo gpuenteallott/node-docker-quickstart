@@ -1,6 +1,7 @@
 'use strict';
 
-exports.index = function( request, response, next ) {
-
-	response.render('index');
-}
+exports.index = function(request, response, next) {
+	response.render('index', {
+		bootstrapData: {},
+	});
+};
